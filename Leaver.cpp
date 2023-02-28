@@ -1,7 +1,7 @@
-#include "Leaver.h"
+п»ї#include "Leaver.h"
 
 namespace LeaverLibraryDinamic {
 	std::string Leaver::leave(const std::string _name) {
-		return "До свидания, " + _name + '!';
+		return "Р”Рѕ СЃРІРёРґР°РЅРёСЏ, " + _name + '!';
 	}
 }

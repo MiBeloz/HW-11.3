@@ -1,4 +1,4 @@
-#include "Leaver.h"
+ï»¿#include "Leaver.h"
 
 #include <iostream>
 #include <Windows.h>
@@ -6,12 +6,12 @@
 
 int main() {
 	setlocale(LC_ALL, "ru");
-	std::cout << "Ïðîñòîå ïðîùàíèå :)\n" << std::endl;
+	std::cout << "ÐŸÑ€Ð¾ÑÑ‚Ð¾Ðµ Ð¿Ñ€Ð¾Ñ‰Ð°Ð½Ð¸Ðµ :)\n" << std::endl;
 
 	LeaverLibraryDinamic::Leaver leaver;
 	std::string name;
 
-	std::cout << "Ââåäèòå èìÿ: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ: ";
 	SetConsoleCP(1251);
 	std::cin >> name;
 	SetConsoleCP(866);
